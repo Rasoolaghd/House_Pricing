@@ -14,4 +14,3 @@ class DataFrameSelector(BaseEstimator, TransformerMixin):
     def transform(self, X):
         return X[self.attribute_names].values
 
-num_attributes = list(housing_num)
